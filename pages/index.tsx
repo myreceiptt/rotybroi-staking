@@ -25,7 +25,7 @@ const Home: NextPage = () => {
           onClick={() => router.push(`/stake`)}
         >
           {/* Staking The ROTY BROI */}
-          <img src={`/icons/rotybroi.webp`} alt="stake" />
+          <Image src={`/icons/rotybroi.webp`} alt="stake" />
           <h2 className={styles.selectBoxTitle}>The ROTY BROI NFTs Staking</h2>
           <p className={styles.selectBoxDescription}>
             Earn <b>OiOi tokens</b> by staking <b>The ROTY BROI</b> NFTs using{" "}
